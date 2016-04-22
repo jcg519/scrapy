@@ -1,0 +1,133 @@
+2016-04-21 14:45:55 [scrapy] INFO: Scrapy 1.0.5 started (bot: w3school)
+2016-04-21 14:45:55 [scrapy] INFO: Optional features available: ssl, http11
+2016-04-21 14:45:55 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'w3school.spiders', 'SPIDER_MODULES': ['w3school.spiders'], 'LOG_FILE': 'log', 'BOT_NAME': 'w3school'}
+2016-04-21 14:45:55 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-21 14:45:55 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-21 14:45:55 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-21 14:45:55 [scrapy] INFO: Enabled item pipelines: 
+2016-04-21 14:45:55 [scrapy] INFO: Spider opened
+2016-04-21 14:45:55 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-21 14:45:55 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2016-04-21 14:45:55 [scrapy] DEBUG: Crawled (200) <GET http://www.w3school.com.cn/xml/xml_syntax.asp> (referer: None)
+2016-04-21 14:45:55 [py.warnings] WARNING: /Users/cjiang/Desktop/python/w3school/w3school/spiders/w3school_spider.py:39: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg("Appending item ...", level='INFO')
+
+2016-04-21 14:45:55 [scrapy] ERROR: Spider error processing <GET http://www.w3school.com.cn/xml/xml_syntax.asp> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/cjiang/Desktop/python/w3school/w3school/spiders/w3school_spider.py", line 39, in parse
+    log.msg("Appending item ...", level='INFO')
+  File "/Library/Python/2.7/site-packages/scrapy/log.py", line 49, in msg
+    logger.log(level, message, *[kw] if kw else [])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 1225, in log
+    raise TypeError("level must be an integer")
+TypeError: level must be an integer
+2016-04-21 14:45:56 [scrapy] INFO: Closing spider (finished)
+2016-04-21 14:45:56 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 235,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11551,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 21, 6, 45, 56, 65224),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2016, 4, 21, 6, 45, 55, 545195)}
+2016-04-21 14:45:56 [scrapy] INFO: Spider closed (finished)
+2016-04-21 14:47:05 [scrapy] INFO: Scrapy 1.0.5 started (bot: w3school)
+2016-04-21 14:47:05 [scrapy] INFO: Optional features available: ssl, http11
+2016-04-21 14:47:05 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'w3school.spiders', 'SPIDER_MODULES': ['w3school.spiders'], 'LOG_FILE': 'log', 'BOT_NAME': 'w3school'}
+2016-04-21 14:47:05 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-21 14:47:05 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-21 14:47:05 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-21 14:47:05 [scrapy] INFO: Enabled item pipelines: 
+2016-04-21 14:47:05 [scrapy] INFO: Spider opened
+2016-04-21 14:47:05 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-21 14:47:05 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2016-04-21 14:47:05 [scrapy] DEBUG: Crawled (200) <GET http://www.w3school.com.cn/xml/xml_syntax.asp> (referer: None)
+2016-04-21 14:47:05 [py.warnings] WARNING: /Users/cjiang/Desktop/python/w3school/w3school/spiders/w3school_spider.py:39: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg("Appending item ...", level='INFO')
+
+2016-04-21 14:47:05 [scrapy] ERROR: Spider error processing <GET http://www.w3school.com.cn/xml/xml_syntax.asp> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/cjiang/Desktop/python/w3school/w3school/spiders/w3school_spider.py", line 39, in parse
+    log.msg("Appending item ...", level='INFO')
+  File "/Library/Python/2.7/site-packages/scrapy/log.py", line 49, in msg
+    logger.log(level, message, *[kw] if kw else [])
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 1225, in log
+    raise TypeError("level must be an integer")
+TypeError: level must be an integer
+2016-04-21 14:47:06 [scrapy] INFO: Closing spider (finished)
+2016-04-21 14:47:06 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 235,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11551,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 21, 6, 47, 6, 29431),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2016, 4, 21, 6, 47, 5, 577511)}
+2016-04-21 14:47:06 [scrapy] INFO: Spider closed (finished)
+2016-04-21 14:49:37 [scrapy] INFO: Scrapy 1.0.5 started (bot: w3school)
+2016-04-21 14:49:37 [scrapy] INFO: Optional features available: ssl, http11
+2016-04-21 14:49:37 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'w3school.spiders', 'SPIDER_MODULES': ['w3school.spiders'], 'LOG_FILE': 'log', 'BOT_NAME': 'w3school'}
+2016-04-21 14:49:37 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-04-21 14:49:37 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-04-21 14:49:37 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-04-21 14:49:37 [scrapy] INFO: Enabled item pipelines: 
+2016-04-21 14:49:37 [scrapy] INFO: Spider opened
+2016-04-21 14:49:37 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-04-21 14:49:37 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2016-04-21 14:49:42 [scrapy] DEBUG: Crawled (200) <GET http://www.w3school.com.cn/xml/xml_syntax.asp> (referer: None)
+2016-04-21 14:49:42 [scrapy] ERROR: Spider error processing <GET http://www.w3school.com.cn/xml/xml_syntax.asp> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/cjiang/Desktop/python/w3school/w3school/spiders/w3school_spider.py", line 39, in parse
+    logging.msg("Appending item ...", level='INFO')
+AttributeError: 'module' object has no attribute 'msg'
+2016-04-21 14:49:42 [scrapy] INFO: Closing spider (finished)
+2016-04-21 14:49:42 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 235,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11551,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 21, 6, 49, 42, 258284),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2016, 4, 21, 6, 49, 37, 667872)}
+2016-04-21 14:49:42 [scrapy] INFO: Spider closed (finished)
